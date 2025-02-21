@@ -8,6 +8,7 @@ import routes from './routes';
 const { REACT_APP_ENV = 'dev' } = process.env;
 
 const config: Record<string, any> = defineConfig({
+  history: { type: "hash" },
   metas: [
     { name: 'theme-color', content: '#1890ff' },
     { name: 'apple-mobile-web-app-capable', content: 'yes' },
