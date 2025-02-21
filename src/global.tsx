@@ -7,7 +7,7 @@ const isHttps = document.location.protocol === 'https:';
 const isHttp = document.location.protocol === 'http:';
 
 // REGISTER/DAFTARKAN SERVICE WORKER
-if ('serviceWorker' in navigator && isHttp) {
+if ('serviceWorker' in navigator && isHttps) {
   window.addEventListener('load', () => {
     navigator.serviceWorker
       .register('/service-worker.js')
