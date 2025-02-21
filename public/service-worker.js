@@ -1,12 +1,12 @@
 const CACHE_NAME = "cache-data-v1.1";
 const STATIC_ASSETS = [
     "/", 
-    "/index.html", 
-    "/favicon.ico",
-    "/dashboard", 
-    "/monitor",
-    "/workplace",
-    "/manifest.json"
+    "/#/index.html", 
+    "/#/favicon.ico",
+    "/#/dashboard", 
+    "/#/monitor",
+    "/#/workplace",
+    "/#/manifest.json"
 ];
 
 // Install Service Worker dan cache asset statis + chunk async
